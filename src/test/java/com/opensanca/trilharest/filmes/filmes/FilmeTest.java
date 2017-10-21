@@ -14,7 +14,7 @@ public class FilmeTest {
         // processamento
         boolean resultado = filme.emExibicao(referencia);
         // verificação
-        Assert.assertFalse(referencia);
+        Assert.assertFalse(resultado);
     }
 
     @Test

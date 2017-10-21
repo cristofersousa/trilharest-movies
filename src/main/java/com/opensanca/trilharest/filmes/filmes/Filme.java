@@ -67,7 +67,16 @@ public class Filme {
         this.fimExibicao = fimExibicao;
     }
 
-    public boolean emExibicao(){
-        return true;
+    public boolean emExibicao(LocalDate referencia){
+        if (getInicioExibicao() == null || getFimExibicao()== null ){
+            return false;
+        }
+
+        LocalDate inicio = getInicioExibicao();
+        LocalDate fim = getFimExibicao();
+
+        boolean hojeDepoisDoInicio = inicio.isEqual(referencia) || inicio.isBefore(referencia);
+        boolean hojeAntesDoInicio = fim.isEqual(referencia) || fim.isAfter(referencia);
+        return hojeDepoisDoInicio && hojeAntesDoInicio;
     }
 }

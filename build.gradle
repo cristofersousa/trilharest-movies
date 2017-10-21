@@ -16,7 +16,7 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
 
     maven {
-	    url "http://192.168.1.7:8071/repository/maven-public/"
+	   // url "http://192.168.1.7:8071/repository/maven-public/"
         jcenter()
 	}
 }

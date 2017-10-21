@@ -4,5 +4,5 @@ deploy:
     secure: FBET2oN+D79SuLXg+UgM+ve8PdLdh1lcaSDLmbpOOCPN4wdHA46mu+0UiT00xRA0qryHMMTLmVPDgsS5wOlzozN3ZB2zRa6uW3MntUxaU3WSl9CIaU/lKLijyqoAidSOetphKorAy+FUqhpHWGjovgCDte05wAZ20ygI+yCAqZGX0hitHl7F0VpFAEVjU0DSgATAhGSyE10h7I8+8PO33CgpYM23PERumA0ZYu+J+lRmFCkbs5qUOxvpr6T44BBRGHQgZZFGziJMArTxqmRPm7cnwChxQAO6iggnjD3Gc42Mp+361265bCeWUTdms0mM14DsfuNxWmlJZvs4o+XVJ55BNSSsHjBRhjhPeUDBEIRSxSTWSKFXf7yulNcopjs/jo4zQBateSjh+CkQYYsBjOJQv1dKdPzO9EgilHdQzZ4rTw5bv/nEn8/qI5kWLeKdpGaFAVgIiAzAkQwj26mHdhTOpFKe+Hi63urUyZrMx1avqMrxkiEG/zL/HUvtnnPphWTj1r2D8fR+ETR53grj6ZFNlfWHdpH4E++jWhYt3aqKT/GRRlMquHe63ZvI3qkhAGJlPlv0mWFi2gsMxYBvoU5x1ywLALyxBqJK9lq0hc/nAAXJPwHRTJ6BWNqAslBw7hsG9VRCjKOR2KioIjDOIDxvjvfLz0b69FNSMAoc6eI=
   provider: heroku
   app:
-    staging: cs-trilharest-movies-st
-    master: cs-trilharest-movies-pr
+    staging: meucinema-st
+    master: meucinema

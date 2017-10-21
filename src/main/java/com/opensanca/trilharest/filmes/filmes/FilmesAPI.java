@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import java.time.LocalDate;
 import java.util.UUID;
 
 @RestController
@@ -28,7 +29,7 @@ public class FilmesAPI {
             parametrosDePaginacao = new ParametrosDePaginacao();
         }
 
-        return this.filmesRepository.buscarPaginaEmExibicao(parametrosDePaginacao);
+        return this.filmesRepository.buscarPaginaEmExibicao(parametrosDePaginacao, LocalDate.now());
     }
 
     @GetMapping("/{id}")

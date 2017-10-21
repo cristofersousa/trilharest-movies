@@ -22,8 +22,7 @@ public class FilmesAPI {
 
 
     @RequestMapping(path="/em-exibicao", method= RequestMethod.GET)
-    public Pagina<Filme> getEmExibicao(
-            ParametrosDePaginacao parametrosDePaginacao) {
+    public Pagina<Filme> getEmExibicao(ParametrosDePaginacao parametrosDePaginacao) {
 
         if(parametrosDePaginacao == null){
             parametrosDePaginacao = new ParametrosDePaginacao();
